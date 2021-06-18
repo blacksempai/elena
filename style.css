@@ -1,0 +1,254 @@
+@font-face {
+    font-family: Elena;
+    src: url(/assets/fonts/belinda.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+.d-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    font-family: Elena;
+    color: white;
+    font-weight: 400;
+    font-size: 4rem;
+}
+
+.intro {
+    background-image: url(/assets/img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-around;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+}
+
+li {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.p {
+    margin-top: 10px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.fifte {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 45vh;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.intro-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    border-radius: 30px;
+    padding: 10px 35px;
+    background-color: #50c3af;
+    color: white;
+    border: rgba(000, 000, 000, 000);
+    font-family: 'PT Sans', sans-serif;
+    font-size: 1rem;
+}
+
+.show {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.show img {
+    width: 35px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #eeeeef;
+    min-height: 40vh;
+}
+
+.show p {
+    text-align: center;
+    font-weight: 400;
+    color: #787b80;
+    font-size: 1rem;
+}
+
+.show h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #384048;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    background-color: #f5f5f5;
+}
+
+.article {
+    margin: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.article img {}
+
+.article p {
+    margin: 10px 0;
+    font-size: 12px;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    color: #787b80;
+}
+
+.article h3 {
+    margin: 20px 0;
+    font-size: 15px;
+    font-family: 'PT Sans', sans-serif;
+    color: #40474e;
+}
+
+.bottom {
+    background-color: #50c3af;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 10px;
+    color: white;
+    font-size: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.supported {
+    background-color: #eeeeef;
+}
+
+.supported h3 {
+    margin: 30px;
+    color: #384048;
+}
+
+.supported p {
+    color: #adafb1;
+}
+
+.supported img {
+    position: relative;
+    top: 55px;
+    left: -10px;
+}
+
+.you {
+    margin: 25px;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 10px;
+    background-color: #d2d5da;
+    color: white;
+}
+
+.module {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 40vh;
+    margin: 1rem 2rem;
+}
+
+.module p {
+    font-family: 'PT Sans', sans-serif;
+    color: #adafb1;
+}
+
+.module h3 {
+    font-size: 1rem;
+    font-family: 'PT Sans', sans-serif;
+    color: #384048;
+}
+
+.last {
+    display: flex;
+    background-color: #50c3af;
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #384048;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.a {
+    color: #50c3af;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.creator {
+    position: relative;
+}
+
+.creator-icon {
+    position: absolute;
+    left: -20px;
+    top: 4px;
+}
+
+@media only all and (max-width: 800px) {
+    .d-flex {
+        flex-direction: column;
+    }
+}
