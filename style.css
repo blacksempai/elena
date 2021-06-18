@@ -1,6 +1,6 @@
 @font-face {
     font-family: Elena;
-    src: url(assets/fonts/belinda.otf);
+    src: url(elena/assets/fonts/belinda.otf);
 }
 
 * {
@@ -31,7 +31,7 @@ a {
 }
 
 .intro {
-    background-image: url(assets/img/fon.jpg);
+    background-image: url(elena/assets/img/fon.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
